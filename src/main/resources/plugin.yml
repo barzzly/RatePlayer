@@ -1,0 +1,4 @@
+name: RatePlayer
+version: '1.0-SNAPSHOT'
+main: dev.barzzly.RatePlayer.main
+api-version: '1.21'
