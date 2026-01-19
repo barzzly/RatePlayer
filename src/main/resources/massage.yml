@@ -1,0 +1,25 @@
+prefix: "&8[&6RatePlayer&8] &7"
+
+commands:
+  rate:
+    usage: "&cUsage: /rate <player>"
+    no-permission: "&cKamu tidak memiliki permission!"
+    player-offline: "&cPlayer tidak online!"
+    self-rating: "&cTidak bisa rate diri sendiri!"
+    cooldown: "&cTunggu %time% detik lagi!"
+    max-daily: "&cSudah mencapai batas rating hari ini!"
+    success: "&aBuka rating menu untuk &e%player%"
+    
+  rating:
+    usage: "&cUsage: /rating [player]"
+    no-data: "&cBelum ada rating!"
+    display: "&6%player% &7- Rating: &e%rating%★ &7(%votes% votes)"
+
+rating:
+  given: "&aKamu rate &e%player% &adengan &6%stars%★"
+  received: "&6%player% &arate kamu &6%stars%★"
+  broadcast: "&6%player% &7rate &6%target% &7dengan &e%stars%★"
+
+errors:
+  database: "&cError database!"
+  gui: "&cError membuka GUI!"

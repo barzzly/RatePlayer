@@ -1,4 +1,26 @@
 name: RatePlayer
-version: '1.0-SNAPSHOT'
-main: dev.barzzly.RatePlayer.main
+version: 1.0-SNAPSHOT
+main: dev.barzzy.RatePlayer.Main
 api-version: '1.21'
+author: BarzzLy
+description: Plugin rating player
+
+commands:
+  rate:
+    description: Rate seorang player
+    usage: /rate <player>
+    permission: rateplayer.use
+
+  rating:
+    description: Lihat rating player
+    usage: /rating [player]
+    permission: rateplayer.view
+
+permissions:
+  rateplayer.use:
+    description: Bisa menggunakan /rate
+    default: true
+
+  rateplayer.view:
+    description: Bisa melihat rating
+    default: true

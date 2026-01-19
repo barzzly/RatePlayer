@@ -1,0 +1,22 @@
+# RatePlayer Configuration
+
+database:
+  # Jenis database: yaml atau sqlite
+  type: "sqlite"
+  sqlite:
+    filename: "ratings.db"
+
+rating:
+  # Cooldown dalam detik
+  cooldown: 300
+  # Boleh rate diri sendiri?
+  allow-self-rating: false
+  # Maksimal rating per hari
+  max-rating-per-day: 10
+  # Broadcast ke server?
+  broadcast-rating: true
+
+gui:
+  # GUI settings
+  title: "&6&lRate Player"
+  rows: 3
